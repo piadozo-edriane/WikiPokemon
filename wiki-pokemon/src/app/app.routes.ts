@@ -6,7 +6,7 @@ import { Pokemon } from './pokemon/pokemon';
 import { Trainers } from './trainers/trainers';
 
 export const routes: Routes = [
-    {path: 'landing-page', component: LandingPage},
+    {path: '', component: LandingPage},
     {path: 'about-page', component: About},
     {path: 'create-team', component: CreateTeam},
     {path: 'pokemon', component: Pokemon},

@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { NavigationBar } from '../shared/navigation-bar/navigation-bar';
 
 @Component({
   selector: 'app-landing-page',
-  imports: [],
+  imports: [NavigationBar],
   templateUrl: './landing-page.html',
   styleUrl: './landing-page.scss',
 })
